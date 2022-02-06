@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.proj.newer_daang">
+
+    <application
+
+        android:name = ".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NewerDaang">
+        <activity
+            android:name=".MainActivity"
+            android:logo="@drawable/logo"
+            android:label="@string/app_name"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".BookmarkActivity"
+            android:logo="@drawable/logo"
+            android:label="북마크">
+
+        </activity>
+
+
+        <activity
+            android:name=".TermsListActivity"
+            android:logo="@drawable/logo"
+            android:label="카테고리">
+
+        </activity>
+
+    </application>
+
+</manifest>
